@@ -1,0 +1,81 @@
+/*
+  Color de fondo: hsl(185, 75%, 39%)
+  Color del texto gris: hsl(227, 10%, 46%)
+ */
+
+body {
+  background-color: hsl(185, 75%, 39%);
+
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+  top: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  text-align: center;
+  color: hsl(227, 10%, 46%);
+  border-radius: 30px;
+  background-color: white;
+}
+.image {
+  border-radius: 50px;
+}
+.tarjeta {
+  margin-top: -60px;
+}
+
+.cabecera {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.pie {
+  height: 120px;
+  margin-top: 40px;
+  border-top: 2px solid rgb(0 0 0 /0.1);
+}
+.estadistica {
+  display: inline-block;
+  width: 100px;
+  margin-top: 10px;
+}
+.numero {
+  font-size: 30px;
+  color: black;
+}
+
+.descripcion {
+  display: inline-block;
+  padding-top: 15px;
+  font-size: 20px;
+}
+.nombre {
+  color: black;
+  font-size: 20px;
+}
+
+.nacion {
+  display: inline-block;
+  padding-top: 8px;
+  font-size: 20px;
+}
+
+.ciculo-top {
+  display: inline-block;
+  position: fixed;
+  bottom: 45vh;
+  left: -5vw;
+  z-index: -1;
+  height: 100vh;
+}
+
+.circulo-bottom {
+  display: inline-block;
+  position: fixed;
+  bottom: -50vh;
+  right: -5vw;
+  z-index: -1;
+  height: 100vh;
+}

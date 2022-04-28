@@ -1,0 +1,112 @@
+/*
+Colores
+  purple: hsl(263, 55%, 52%)
+  grey: hsl(217, 19%, 35%)
+  dark-blue: hsl(219, 29%, 14%)
+
+  El texto de las tarjetas tiene una opacidad del 70%
+  La información del usuario tiene una opacidad del 50%
+
+Fuente de la página
+  https://fonts.google.com/specimen/Barlow+Semi+Condensed
+  Estilos 500 y 600
+*/
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #fff;
+  width: 1380px;
+  margin: 50px auto;
+  background-color: #333;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+.header {
+  display: inline-block;
+  width: 76%;
+}
+.article {
+  position: relative;
+  display: inline-block;
+  height: 400px;
+  padding: 1.5rem 1.5rem;
+  border-radius: 1rem;
+}
+.article-big {
+  width: 660px;
+  background-color: hsl(263, 55%, 52%);
+}
+.article-medium {
+  position: absolute;
+  width: 350px;
+  margin-left: 30px;
+  background-color: hsl(217, 19%, 35%);
+}
+.description,
+.title {
+  position: relative;
+  line-height: 1.5em;
+}
+.description {
+  color: rgb(255 255 255/0.7);
+}
+.user,
+.img-user,
+.aside {
+  display: inline-block;
+}
+.user {
+  margin-left: 25px;
+  color: rgb(255 255 255/0.5);
+}
+.img-user {
+  border-radius: 50%;
+}
+.aside {
+  position: absolute;
+  width: 300px;
+  margin-left: 20px;
+  height: 825px;
+}
+
+.article-large {
+  background-color: #fff;
+  height: 100%;
+  color: #000;
+}
+.description-aside {
+  width: 240px;
+  color: rgb(0 0 0/ 0.7);
+}
+.user-aside,
+.user-footer {
+  color: rgb(0 0 0/ 0.5);
+}
+/* ------------------- */
+
+.article-medium.dos {
+  position: relative;
+  color: #000;
+  margin-top: 25px;
+  margin-left: 0;
+  width: 325px;
+  background-color: #fff;
+}
+.description-footer {
+  width: 240px;
+  color: rgb(0 0 0/ 0.7);
+  line-height: 1.5em;
+}
+.article-big.dos {
+  width: 695px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 25px;
+  background-color: hsl(219, 29%, 14%);
+}
+
+.img-fondo {
+  position: absolute;
+  top:4em;
+  right:10em;
+}

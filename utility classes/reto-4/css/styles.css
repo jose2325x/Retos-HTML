@@ -1,0 +1,88 @@
+/*
+Colores
+  cyan: hsl(179, 62%, 43%)
+  lime: hsl(71, 73%, 54%)
+  grey: hsl(204, 43%, 93%)
+  light-blue: hsl(218, 22%, 67%)
+
+Fuente de la página
+  https://fonts.google.com/specimen/Karla
+  Estilos 200 y 400
+*/
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: "Karla", sans-serif;
+}
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+  height: 500px;
+}
+.header,
+.box {
+  padding: 20px 30px;
+  height: 250px;
+  background-color: #fff;
+}
+
+.box {
+  width: 325px;
+}
+.precio {
+  background-color: hsl(179, 62%, 43%);
+}
+.info {
+  position: relative;
+  background-color: hsl(179 62% 43% / 0.8);
+  top: -250px;
+  right: -325px;
+}
+
+.title {
+  color: hsl(179, 62%, 43%);
+}
+
+.subtitle {
+  color: hsl(71, 73%, 54%);
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.text {
+  color: hsl(218, 22%, 67%);
+}
+.a-precio {
+  font-size: 2.5em;
+}
+.p-precio {
+  font-size: 1.5em;
+  color: hsl(0 0% 100% / 0.5);
+}
+.descripcion {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.lista {
+  padding: 0;
+  list-style: none;
+  font-weight: 200;
+}
+.bt {
+  height: 35px;
+  padding-top: 10px;
+  width: 260px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 4px 4px 5px hsl(0 0% 0% / 0.1);
+  border-radius: 5px;
+  color: inherit;
+  background-color: hsl(71, 73%, 54%);
+}

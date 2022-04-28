@@ -1,0 +1,100 @@
+/*
+Colores
+    Background: #333
+
+    Tarjetas
+        Orange: hsl(31, 77%, 52%)
+        Cyan: hsl(184, 100%, 22%)
+        Dark cyan: hsl(179, 100%, 13%)
+    
+    Texto
+        Blanco al 0.75 de opacidad
+
+Fuentes de la página
+    Títulos
+        https://fonts.google.com/specimen/Big+Shoulders+Display
+        Estilo 600
+    Textos
+        https://fonts.google.com/specimen/Lexend+Deca
+        Estilo 400
+
+
+        font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+*/
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  /* recordar que aca se pone para centrar el texto y caja */
+  text-align: center;
+  background-color: #333;
+  color: rgb(255 255 255 /0.75);
+}
+.title {
+  font-family: "Big Shoulders Display";
+  font-weight: 800;
+  font-size: 2.5em;
+}
+
+.text,
+.bt {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  width: 200px;
+}
+.container {
+  /* recordar el 90% tambien es importante */
+  width: 90%;
+  height: 500px;
+  margin: 200px auto;
+  /* recordar aca se pone para que el truco funcione 0 */
+  font-size: 0;
+}
+
+.box {
+  /* aca poner el font size para el texto- truco */
+  font-size: 1rem;
+  text-align: left;
+  display: inline-block;
+  width: 300px;
+  height: 500px;
+  padding-top: 48px;
+  padding-left: 32px;
+}
+
+.orange {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.cyan {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.bt {
+  padding: 12px 30px;
+  border-radius: 20px;
+  /* width: 150px;
+  height: 10px;
+  display: inline-block; */
+  background-color: #fff;
+  position: relative;
+  top: 70px;
+  text-decoration: none;
+}
+.bt.orange {
+  color: hsl(31, 77%, 52%);
+}
+
+.bt.cyan {
+  color: hsl(184, 100%, 22%);
+}
+
+.bt.dark-cyan {
+  color: hsl(179, 100%, 13%);
+}

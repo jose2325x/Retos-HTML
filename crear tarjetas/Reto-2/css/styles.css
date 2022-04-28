@@ -1,0 +1,98 @@
+/*
+Colores
+  Tarjetas
+    Red: hsl(0, 78%, 62%)
+    Cyan: hsl(180, 62%, 55%)
+    Orange: hsl(34, 97%, 64%)
+    Blue: hsl(212, 86%, 64%)
+  Sombra
+    Dark Blue: hsl(240, 25%, 50%) al 20% de opacidad;
+  Texto
+    Grey: hsl(229, 6%, 66%)
+  Fondo de la tarjeta y del background
+    White: hsl(0, 0%, 93%)
+Fuente de la página
+  https://fonts.google.com/specimen/Poppins
+  Estilos 200, 400 y 600
+*/
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 93%);
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  text-align: center;
+}
+.texto {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+.title {
+  margin-top: 15px;
+  font-weight: 200;
+}
+.subtitle {
+  margin-top: 0;
+  font-weight: 600;
+}
+.boxs {
+  margin-top: 80px;
+  position: relative;
+  width: 1200px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenido {
+  width: 30vw;
+  margin-bottom: 1px;
+  color: hsl(229, 6%, 66%);
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contenido-main {
+  color: hsl(229, 6%, 66%);
+}
+.texto-main {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.box {
+  background-color: hsl(0, 0%, 93%);
+  position: relative;
+  width: 350px;
+  height: 250px;
+  box-shadow: 5px 10px 10px hsl(240 25% 50% / 0.2);
+  border-radius: 10px;
+  padding-left: 20px;
+}
+.image {
+  margin-top: 20px;
+  margin-left: 240px;
+}
+.team {
+  left: 420px;
+  border-top: 6px solid hsl(0, 78%, 62%);
+}
+
+.supervisor {
+  top: -100px;
+  left: 0;
+  border-top: 6px solid hsl(180, 62%, 55%);
+}
+
+.karma {
+  top: -200px;
+  left: 420px;
+  border-top: 6px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+  top:-600px;
+  left: 850px;
+  border-top: 6px solid hsl(212, 86%, 64%);
+}
